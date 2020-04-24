@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CTMediator (28)
+  - FFAPIs (0.1.1):
+    - AFNetworking
+    - FFToolsKit (~> 0.1.0)
+  - FFAuhtorKit_Category (0.1.0):
+    - CTMediator
+    - FFAPIs
+  - FFToolsKit (0.1.0):
+    - FMDB
+    - MBProgressHUD (~> 1.1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.1.0)
+
+DEPENDENCIES:
+  - CTMediator
+  - FFAPIs
+  - FFAuhtorKit_Category (from `../`)
+
+SPEC REPOS:
+  https://github.com/BJComponent/BJSpecs.git:
+    - FFAPIs
+    - FFToolsKit
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CTMediator
+    - FMDB
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FFAuhtorKit_Category:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  FFAPIs: bcc33221e507f8b9a0eaaf9714a24c8c14235703
+  FFAuhtorKit_Category: 2b5452c1f2099678acfdcdffaed7963df9742c37
+  FFToolsKit: 8968989c9d1e1320e1d9d034637dcff1eec2577f
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+
+PODFILE CHECKSUM: e9b7f73257038c627aaa00ced1ad8c26c4b3c7ad
+
+COCOAPODS: 1.7.5
